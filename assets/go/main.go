@@ -190,7 +190,7 @@ func main() {
 				w.WriteString("\n\n")
 			}
 
-			w.WriteString("declare interface ")
+			w.WriteString("export interface ")
 			w.WriteString(name)
 			w.WriteString(" {\n")
 
